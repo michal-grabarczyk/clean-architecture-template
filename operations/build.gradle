@@ -1,0 +1,7 @@
+dependencies {
+  implementation 'javax.inject:javax.inject:1'
+  implementation 'javax.validation:validation-api'
+
+  testRuntimeOnly 'org.hibernate.validator:hibernate-validator'
+  testRuntimeOnly 'org.apache.tomcat.embed:tomcat-embed-el'
+}

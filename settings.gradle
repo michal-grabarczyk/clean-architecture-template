@@ -1,0 +1,6 @@
+rootProject.name = 'clean-architecture'
+
+include 'app'
+include 'operations'
+include 'api'
+

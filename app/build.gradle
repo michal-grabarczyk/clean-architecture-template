@@ -1,0 +1,15 @@
+plugins {
+  id 'org.springframework.boot'
+}
+
+dependencies {
+  implementation project(':api')
+  implementation project(':operations')
+
+  implementation 'org.springframework.boot:spring-boot-starter'
+  implementation 'javax.validation:validation-api'
+
+  testImplementation('io.rest-assured:rest-assured') {
+    exclude group: 'com.sun.xml.bind', module: 'jaxb-osgi'
+  }
+}
